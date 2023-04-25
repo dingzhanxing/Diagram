@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T10:02:07.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LAP0W1WXL4kePgGaOlr7" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T10:07:19.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SfgHjPbwNeN7dkUVBP6H" version="21.0.10" type="github">
   <diagram name="Page-1" id="x6VWTZ31vIRzJS5RTLA4">
     <mxGraphModel dx="3774" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BEkTw003qSyDK9eR2Wev-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Jenkins Integration with RDOi - Solution 1&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1480" y="560" width="1380" height="571" as="geometry" />
+          <mxGeometry x="-1482" y="559" width="1380" height="571" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Develoer&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-4">
           <mxGeometry y="20" width="1380" height="140" as="geometry" />
@@ -100,11 +100,17 @@
         <mxCell id="BEkTw003qSyDK9eR2Wev-84" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
           <mxGeometry x="21" width="1359" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="BEkTw003qSyDK9eR2Wev-159" value="IBM i PASE - Jenkins agent&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
-          <mxGeometry x="241" y="10" width="309" height="82" as="geometry" />
+        <mxCell id="BEkTw003qSyDK9eR2Wev-159" value="IBM i PASE - Jenkins agent&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
+          <mxGeometry x="241" y="10" width="429" height="82" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-155" value="RDOi-API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
-          <mxGeometry x="428" y="35" width="97" height="38" as="geometry" />
+          <mxGeometry x="447" y="33" width="192" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BEkTw003qSyDK9eR2Wev-165" value="RDOi builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
+          <mxGeometry x="751" y="12" width="250" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="BEkTw003qSyDK9eR2Wev-167" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-83">
+          <mxGeometry x="692.5" y="1" width="14" height="105" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-54" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1. Get test plan and store in DB&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;2. Trigger test plan&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;3. Get the test plan running result&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="740" width="280" height="120" as="geometry" />
@@ -126,6 +132,9 @@
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-164" value="Code sync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1144" y="888" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEkTw003qSyDK9eR2Wev-169" value="Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1019" width="81" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
