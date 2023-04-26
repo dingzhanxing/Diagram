@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T10:25:22.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Opp1Lo_C1MFSjFcG2SpV" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T03:19:13.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bbt6NLg7TPtcP-V01zVZ" version="21.0.10" type="github">
   <diagram name="Page-1" id="x6VWTZ31vIRzJS5RTLA4">
-    <mxGraphModel dx="3774" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3130" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         <mxCell id="BEkTw003qSyDK9eR2Wev-99" value="&lt;b&gt;SCM sync&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-13">
           <mxGeometry x="285.6700000000001" y="49" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BEkTw003qSyDK9eR2Wev-100" value="&lt;b&gt;Build step&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-13">
+        <mxCell id="BEkTw003qSyDK9eR2Wev-100" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Build adapter&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-13">
           <mxGeometry x="424" y="49" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-48" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="BEkTw003qSyDK9eR2Wev-13">
@@ -138,8 +138,8 @@
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-173" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-960" y="790" as="sourcePoint" />
-            <mxPoint x="-931" y="790" as="targetPoint" />
+            <mxPoint x="-960" y="780" as="sourcePoint" />
+            <mxPoint x="-931" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
