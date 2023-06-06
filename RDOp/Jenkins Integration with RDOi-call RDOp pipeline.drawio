@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T09:34:17.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="I39y2qZ6nXw5izd5Ed7F" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T09:35:44.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KyI-d4QcCORCOhlg4LXS" version="21.3.2" type="github">
   <diagram name="Page-1" id="x6VWTZ31vIRzJS5RTLA4">
     <mxGraphModel dx="3134" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
             <mxPoint x="411.6700000000001" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BEkTw003qSyDK9eR2Wev-96" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;wrapper/stub&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="BEkTw003qSyDK9eR2Wev-13" vertex="1">
+        <mxCell id="BEkTw003qSyDK9eR2Wev-96" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;wrapper/stub&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="BEkTw003qSyDK9eR2Wev-13" vertex="1">
           <mxGeometry x="182.67000000000007" y="44" width="802" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-97" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Jenkins Job&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BEkTw003qSyDK9eR2Wev-13" vertex="1">
@@ -107,12 +107,12 @@
           <mxGeometry x="-1297.33" y="889" width="802" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hh2636ww-rOC9nr4U4GM-2" value="&lt;b&gt;SCM sync&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1194.33" y="894" width="96" height="40" as="geometry" />
+          <mxGeometry x="-1190.33" y="894" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hh2636ww-rOC9nr4U4GM-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Build adapter&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hh2636ww-rOC9nr4U4GM-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Build&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1056" y="894" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hh2636ww-rOC9nr4U4GM-4" value="&lt;b&gt;View result&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hh2636ww-rOC9nr4U4GM-4" value="&lt;b&gt;Test&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-928" y="894" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BEkTw003qSyDK9eR2Wev-173" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -123,8 +123,17 @@
         </mxCell>
         <mxCell id="hh2636ww-rOC9nr4U4GM-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1091" y="913" as="sourcePoint" />
-            <mxPoint x="-1062" y="913" as="targetPoint" />
+            <mxPoint x="-1088" y="913" as="sourcePoint" />
+            <mxPoint x="-1059" y="913" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hh2636ww-rOC9nr4U4GM-7" value="&lt;b&gt;Deploy&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="894" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hh2636ww-rOC9nr4U4GM-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-833" y="916" as="sourcePoint" />
+            <mxPoint x="-804" y="916" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
